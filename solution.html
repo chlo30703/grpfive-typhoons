@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Typhoons</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="solution.html">SOLUTION</a></li>
+					<li><a href="credits.html">CREDITS</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>SOLUTION</h1>
+	</section>
+	
+	<!---solution content----->
+	
+	<section class="solution">
+	
+	<div class="row">
+		<div class="solution-col">
+			<h1>How to Mitigate Typhoons</h1>
+			<p>Mitigating typhoons is a collective effort involving individuals, communities, governments, and international cooperation. It is not possible to directly mitigate a typhoon itself. Typhoons are natural weather phenomena characterized by strong winds and heavy rainfall that develop over warm ocean waters. <br>
+
+				<br>However, what can be done is to mitigate the impacts and reduce the risks associated with typhoons. This involves implementing various measures to minimize the damage caused by typhoons and enhance the resilience of communities and infrastructure in their path.<br>
+
+				<br>To mitigate the impacts of typhoons, here are some measures that can be taken: <br>
+				<br>1. <b> Strengthening the environmental community</b> will enable us to better withstand the harm that typhoons can do. By including the community in cooperative planning for typhoon preparedness, such as creating evacuation plans, establishing early warning systems, and holding drills, it may be made sure that residents are well-prepared and understand how to react when a typhoon strikes.
+				<br>2. <b> Strengthening infrastructure:</b> Encourage the creation and upkeep of resilient infrastructure in the neighborhood by building storm-resistant structures, strengthening vital infrastructure, and enhancing drainage systems.
+				<br>3. Advocate for community members to have <b>access to resources and funds</b> so they may carry out projects to increase resilience.
+				<br>4. <b> Monitor and assess the results of applied tactics on a regular basis.</b> Gather community feedback to identify areas for improvement and make the required changes to build the community's resilience over time.
+				<br>5. <b> Planting Trees:</b> Trees may mitigate the effects of strong winds, lessen the forces of soil erosion, landslides, and floods, absorb carbon dioxide, and shield populations and structures from the effects of storms.<br>
+				<br>By putting these measures into practice, an environmental community can increase its overall resilience to climate-related problems, increase its ability to endure the harm caused by typhoons, and encourage sustainable behaviors.</p>
+		</div>
+		<div class="solution-col">
+			<img src="community.jpg">
+		</div>
+	
+	</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	<!---Footer----->
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>The Group 5 created this website with love! Thanks to everybody. <br>Visit our credentials page for additional details!</p>
+	</section>
+	
+
+	
+
+	<!---JavaScript for Toggle Menu----->
+
+	<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	navLinks.style.right = "-200px";
+	}
+
+	</script>
+
+</body>
+</html>

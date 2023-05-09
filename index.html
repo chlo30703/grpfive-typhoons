@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Typhoons</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="solution.html">SOLUTION</a></li>
+					<li><a href="credits.html">CREDITS</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+		<div class="text-box">
+		<h1>TYPHOONS</h1>
+		<p>Typhoons inflict floods, significant damage to crops, residences, and other structures, as well as fatal accidents. <br> They also bring high winds and heavy rainfall.</p>
+		<a href="about.html" class="hero-btn">ABOUT TYPHOONS</a>
+		</div>
+	</section>
+	
+	<!----ABOUT---->
+	
+	<section class="about">
+		<h1>Introduction</h1>
+		<p>There are various advantages to being aware of typhoon threats and its effects. <br>By making emergency plans, storing up on supplies, and taking the required precautions to reduce damage and preserve their safety, people can become more prepared for the storms. <br>Additonally, it may encourage more spending on research to better comprehend and forecast these storms as well as infrastructure that can withstand the effects of typhoons.</p>
+		<p>Join us on our website for the duration of the voyage so you can:</p>
+		
+		<div class="row">
+			<div class="about-col">
+			<h3>Classify</h3>
+			<p>You can discuss the various effects of typhoons, such as how they affect the environment, infrastructure, and population, and how scientists track and forecast their direction and intensity using technology and models.</p>
+			</div>
+			<div class="about-col">
+			<h3>Prepare</h3>
+			<p>You can offer pointers and suggestions on how to get ready for a typhoon, such as making an emergency plan and stockpiling supplies, as well as how to stay safe during a typhoon, such as avoiding flood-prone regions and staying inside.</p>
+			</div>
+			<div class="about-col">
+			<h3>Learn More</h3>
+			<p>You can also include a comprehensive overview of typhoons and their impacts, as well as an explanation of how they originate and the conditions that must exist for them to occur, as well as information on the typhoon aftermath.</p>
+			</div>
+		</div>
+	
+	</section>
+	
+	<!---Introduction----->
+	<section class="introduction">
+		<h1>Preparing for a Typhoon: Essential Tips for Safety and Survival</h1>
+	<p>We must be ready for a typhoon because these storms can seriously harm our infrastructure, safety, and general wellbeing. <br>Typhoons have the potential to deliver powerful winds, copious amounts of rain, and storm surges that can result in flooding, landslides, and power outages. <br>We can reduce the harm and ensure our safety by being prepared.</p>
+	<p>The ways to get ready for the typhoon Before, During, and After are listed below.</p>
+	
+	<div class="row">
+		<div class="introduction-col">
+			<a href="about.html">
+			<img src="before.jpg">
+			<div class="layer">
+			<h3>BEFORE</h3>
+				
+			</div>
+			</a>
+			
+		</div>
+		
+		<div class="introduction-col">
+		<a href="about.html">
+		<img src="during.jpg">
+			<div class="layer">
+				<h3>DURING</h3>
+			</div>
+		</a>
+			
+		</div>
+		
+		<div class="introduction-col">
+		<a href="about.html">
+		<img src="after.jpg">
+			<div class="layer">
+				<h3>AFTER</h3>
+			</div>
+		</a>
+			
+		</div>
+	</div>
+	</section>
+	
+	
+	<!---Call To Action----->
+	
+	<section class="cta">
+		<h1>Raise Awareness. Be Resilient.</h1>
+		<a href="credits.html" class="hero-btn">CREDITS</a>
+	</section>
+	
+	
+	<!---Footer----->
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>The Group 5 created this website with love! Thanks to everybody. <br>Visit our credentials page for additional details!</p>
+	</section>
+	
+
+	
+
+	<!---JavaScript for Toggle Menu----->
+
+	<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	navLinks.style.right = "-200px";
+	}
+
+	</script>
+
+</body>
+</html>
